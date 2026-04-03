@@ -21,7 +21,7 @@ def fetch_telemetry():
     Fetches and parses the latest telemetry data from the JSON endpoint.
     """
     try:
-        response = requests.get(BASE_URL, timeout=2)
+        response = requests.get(BASE_URL, timeout=10)
         response.raise_for_status()
         
         # GCS returns the generation ID in the headers

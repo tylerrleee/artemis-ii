@@ -1,0 +1,32 @@
+{
+  "name": "artemis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "test:cesium": "npx playwright test",
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerrleee/artemis-ii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tylerrleee/artemis-ii/issues"
+  },
+  "homepage": "https://github.com/tylerrleee/artemis-ii#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  }
+}
